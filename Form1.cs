@@ -86,7 +86,7 @@ namespace Hangman_Lite__Part_8_Project_
                 lblWord.Text = word;
                 if (!word.Contains("_"))
                 {
-                    guessCounter.Text = "You finished the word!";
+                    guessCounter.Text = "Congrats!! You finished the word!";
                     btnReplay.Visible = true;
                 }
                 
@@ -119,7 +119,7 @@ namespace Hangman_Lite__Part_8_Project_
                 else if (panelOrder == 5)
                 {
                     pnlMan5.Visible = false;
-                    guessCounter.Text = "Game's Over, Click Try Again to Retry";
+                    guessCounter.Text = "Game Over - Click Try Again to Retry";
                     btnReplay.Visible = true;
                 }
             }                      
