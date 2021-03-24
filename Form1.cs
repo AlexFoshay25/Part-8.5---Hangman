@@ -29,6 +29,7 @@ namespace Hangman_Lite__Part_8_Project_
         private void Form1_Load(object sender, EventArgs e)
         {
             ResetGame();
+
         }
 
         public void ResetGame()
