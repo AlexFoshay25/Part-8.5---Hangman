@@ -119,7 +119,7 @@ namespace Hangman_Lite__Part_8_Project_
                 else if (panelOrder == 5)
                 {
                     pnlMan5.Visible = false;
-                    guessCounter.Text = "Game Over - Click Try Again to Retry";
+                    guessCounter.Text = "Game Over - Click Below to Play Again";
                     btnReplay.Visible = true;
                 }
             }                      
@@ -286,5 +286,9 @@ namespace Hangman_Lite__Part_8_Project_
             ResetGame();
         }
 
+        private void guessCounter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
